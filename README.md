@@ -7,8 +7,8 @@ A full-stack web application designed to catalog, explore, and search the legend
 ## 🌟 Features
 
 - **Dynamic Catalog:** Browse through categorized entities (Maiar, Dragons, Elves, Orcs, Great Eagles, and more).
-- **Search & Filtering:** Real-time search by name, species, alignment, and notable appearances across the Legendarium.
-- **Detailed Lore Profiles:** Deep-dive cards displaying historical origins, powers, weapons, and timeline events.
+- **Relational Lore Mapping:** View connections between creatures, their origins, allegiances, and historical ages.
+- **Search & Filtering:** Fast querying across creature names, alignments, and notable appearances.
 - **Responsive UI:** Clean, modern interface designed for desktop, tablet, and mobile browsers.
 
 ---
@@ -22,24 +22,25 @@ A full-stack web application designed to catalog, explore, and search the legend
 - CSS3 / Flexbox & Grid
 - Fetch API / Axios
 
-**Backend:**
+**Backend & Database:**
 
-- Node.js
-- Express.js
-- MongoDB / Mongoose (or your active database)
+- Node.js & Express.js
+- PostgreSQL
+- `pg` pool client (or Prisma / Sequelize ORM)
 - RESTful API architecture
 
 ---
 
 ## 🚀 Getting Started
 
-Follow these steps to run the application locally on your machine.
+Follow these steps to set up and run the application locally.
 
 ### Prerequisites
 
 Ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (v16.x or higher recommended)
+- [Node.js](https://nodejs.org/) (v16.x or higher)
+- [PostgreSQL](https://www.postgresql.org/) (v14+ recommended)
 - [Git](https://git-scm.com/)
 
 ### Installation
